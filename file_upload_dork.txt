@@ -1,0 +1,17 @@
+"intitle:index.of" site:example.com - This dork searches for index pages on a website. It can be used to find directories and files that are not normally linked to from the website's navigation.
+
+"intext:username=^admin" site:example.com - This dork searches for pages that contain the word "username" and the string "^admin". This can be used to find login pages that have a username field.
+
+"filetype:pdf site:example.com" - This dork searches for PDF files on a website. You can replace "pdf" with other file types such as "doc", "xls", "ppt", etc.
+
+"intext:"powered by wordpress" site:example.com" - This dork searches for websites that are built using the WordPress CMS.
+
+"inurl:.php?id= site:example.com" - This dork searches for pages that have a parameter called "id" in the URL. This can be used to find vulnerable pages that can be exploited through SQL injection.
+
+"intitle:upload | file upload site:example.com" - This dork searches for pages that contain the words "upload" or "file upload" in the page title. It can be used to find pages that allow file uploads on the website "example.com".
+
+"filetype:php inurl:upload site:example.com" - This dork searches for pages with "upload" in the URL and the file extension ".php". It can be used to find PHP upload pages on the website "example.com".
+
+"intext:"Upload Files" site:example.com" - This dork searches for pages that contain the phrase "Upload Files" on the website "example.com". It can be used to find pages with file upload functionality.
+
+"inurl:/wp-content/uploads/ site:example.com" - This dork searches for WordPress websites that have uploaded files in the "/wp-content/uploads/" directory. It can be used to find vulnerable WordPress installations that have file upload capabilities.
